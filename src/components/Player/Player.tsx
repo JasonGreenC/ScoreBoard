@@ -42,16 +42,21 @@ const Player: FC<PlayerProps> = ({ PlayerName, Rounds, onDelete }) => {
         )}
       </Grid>
       {Array.from({ length: Rounds }).map((_, index) => (
-        <Grid item xs={1} key={index}>
+        <Grid item key={index}>
           <TextField
             type="number"
-            label={`Round ${index + 1}`}
+            label={`${index + 1}`}
             id={`${PlayerName}round${index + 1}`}
             defaultValue={0}
             onChange={(e) => handleScoreChange(index, parseInt(e.target.value))}
             size='small'
             margin='normal'
             InputLabelProps={{ shrink: true }}
+            inputProps={{ 
+              style: { width: '50px' }, // sets the width of the input field
+              min: 0, // sets the minimum value
+              max: 999 // sets the maximum value
+            }}
           />
         </Grid>
       ))}
