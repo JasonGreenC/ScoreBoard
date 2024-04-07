@@ -6,9 +6,9 @@ import Player from '../Player/Player';
 interface ScoreBoardProps {}
 
 const ScoreBoard: FC<ScoreBoardProps> = () => {
-  const [Rounds, setRounds] = useState(2);
   const [lastID, setLastID] = useState(1);
   const [Players, setPlayers] = useState([{ id: lastID, name: 'Player 1' }]);
+  const [Rounds, setRounds] = useState(2);
 
   const handleAddPlayer = () => {
     const newID = lastID + 1;
@@ -17,7 +17,7 @@ const ScoreBoard: FC<ScoreBoardProps> = () => {
   }
 
   const handleDeletePlayer = (id: number) => {
-    setPlayers(Players.filter(player => player.id !== id));
+    setPlayers(Players.filter((player: { id: number; }) => player.id !== id));
   };
 
   const handleDeleteRound = () => {
@@ -47,7 +47,7 @@ const ScoreBoard: FC<ScoreBoardProps> = () => {
         </Stack>
         <br></br>
         <Grid container spacing={2}>
-          {Players.map((player) => (
+          {Players.map((player: { id: number; name: string; }) => (
           <Grid item xs={12} key={player.id}>
             <Player 
               PlayerName={player.name}

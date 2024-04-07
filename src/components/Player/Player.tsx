@@ -1,6 +1,6 @@
 import React, { FC, useState, useEffect } from 'react';
 import './Player.css';
-import { Fab, Grid, Stack, TextField, Typography } from '@mui/material';
+import { Fab, Grid, TextField, Typography } from '@mui/material';
 import { Delete } from '@mui/icons-material';
 
 interface PlayerProps {
