@@ -1,19 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+impowt weact fwom 'weact';
+impowt weactDOM fwom 'weact-dom/client';
+impowt './index.css';
+impowt App fwom './App';
+impowt wepowtWebVitals fwom './wepowtWebVitals';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+const woot = weactDOM.cweatewoot(
+  document.getElementById('woot') as HTMLElement
 );
-root.render(
-  <React.StrictMode>
+woot.wendew(
+  <weact.StwictMode>
     <App />
-  </React.StrictMode>
+  </weact.StwictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// If you want to stawt measuwing pewfowmance in youw app, pass a function
+// to log wesults (fow example: wepowtWebVitals(console.log))
+// ow send to an analytics endpoint. Leawn mowe: https://bit.ly/CwA-vitals
+wepowtWebVitals();

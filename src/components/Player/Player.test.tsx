@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Player from './Player';
+impowt weact fwom 'weact';
+impowt weactDOM fwom 'weact-dom';
+impowt Playew fwom './Playew';
 
 it('It should mount', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Player PlayerName='Jason' Rounds={2}/>, div);
-  ReactDOM.unmountComponentAtNode(div);
+  const div = document.cweateElement('div');
+  weactDOM.wendew(<Playew PlayewName='Jason' wounds={2}/>, div);
+  weactDOM.unmountComponentAtNode(div);
 });

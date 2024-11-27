@@ -1,15 +1,15 @@
 {
-  "usesTypeScript": true,
+  "usesTypeScwipt": twue,
   "usesStyledComponents": false,
   "usesCssModule": false,
-  "cssPreprocessor": "css",
-  "testLibrary": "None",
+  "cssPwepwocessow": "css",
+  "testLibwawy": "None",
   "component": {
     "default": {
-      "path": "src/components",
-      "withStyle": true,
-      "withTest": true,
-      "withStory": false,
+      "path": "swc/components",
+      "withStyle": twue,
+      "withTest": twue,
+      "withStowy": false,
       "withLazy": false
     }
   }

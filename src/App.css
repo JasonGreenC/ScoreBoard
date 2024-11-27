@@ -1,19 +1,19 @@
 .App {
-  text-align: center;
-  background-color: #aa0000;
+  text-align: centew;
+  backgwound-colow: #aa0000;
 }
 
-.App-header {
-  background-color: #383434;
+.App-headew {
+  backgwound-colow: #383434;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-diwection: column;
+  align-items: centew;
+  justify-content: centew;
   font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0);
+  colow: wgb(0, 0, 0);
 }
 
 .App-link {
-  color: #61dafb;
+  colow: #61dafb;
 }
