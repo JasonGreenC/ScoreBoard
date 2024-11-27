@@ -1,26 +1,26 @@
 {
-  "compilerOptions": {
-    "target": "es5",
+  "compilewOptions": {
+    "tawget": "es5",
     "lib": [
       "dom",
-      "dom.iterable",
+      "dom.itewable",
       "esnext"
     ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
+    "allowJs": twue,
+    "skipLibCheck": twue,
+    "esModuleIntewop": twue,
+    "allowSyntheticDefaultImpowts": twue,
+    "stwict": twue,
+    "fowceConsistentCasingInFileNames": twue,
+    "noFallthwoughCasesInSwitch": twue,
     "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "modulewesolution": "node",
+    "wesolveJsonModule": twue,
+    "isolatedModules": twue,
+    "noEmit": twue,
+    "jsx": "weact-jsx"
   },
   "include": [
-    "src"
+    "swc"
   ]
 }

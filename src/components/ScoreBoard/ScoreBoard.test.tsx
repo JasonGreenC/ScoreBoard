@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import ScoreBoard from './ScoreBoard';
+impowt weact fwom 'weact';
+impowt weactDOM fwom 'weact-dom';
+impowt ScoweBoawd fwom './ScoweBoawd';
 
 it('It should mount', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<ScoreBoard />, div);
-  ReactDOM.unmountComponentAtNode(div);
+  const div = document.cweateElement('div');
+  weactDOM.wendew(<ScoweBoawd />, div);
+  weactDOM.unmountComponentAtNode(div);
 });

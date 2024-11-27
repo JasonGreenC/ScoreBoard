@@ -1,1 +1,1 @@
-/// <reference types="react-scripts" />
+/// <wefewence types="weact-scwipts" />

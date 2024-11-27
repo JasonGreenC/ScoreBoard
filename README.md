@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Getting Stawted with Cweate weact App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This pwoject was bootstwapped with [Cweate weact App](https://github.com/facebook/cweate-weact-app).
 
-## Available Scripts
+## Available Scwipts
 
-In the project directory, you can run:
+In the pwoject diwectowy, you can wun:
 
-### `npm start`
+### `npm stawt`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+wuns the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the bwowsew.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The page will weload if you make edits.\
+You will also see any lint ewwows in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test wunnew in the intewactive watch mode.\
+See the section about [wunning tests](https://facebook.github.io/cweate-weact-app/docs/wunning-tests) fow mowe infowmation.
 
-### `npm run build`
+### `npm wun build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app fow pwoduction to the `build` foldew.\
+It cowwectly bundles weact in pwoduction mode and optimizes the build fow the best pewfowmance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Youw app is weady to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about [deployment](https://facebook.github.io/cweate-weact-app/docs/deployment) fow mowe infowmation.
 
-### `npm run eject`
+### `npm wun eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Note: this is a one-way opewation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you awen’t satisfied with the build tool and configuwation choices, you can `eject` at any time. This command will wemove the single build dependency fwom youw pwoject.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuwation files and the twansitive dependencies (webpack, Babel, ESLint, etc) wight into youw pwoject so you have full contwol ovew them. All of the commands except `eject` will still wowk, but they will point to the copied scwipts so you can tweak them. At this point you’we on youw own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don’t have to evew use `eject`. The cuwated featuwe set is suitable fow small and middle deployments, and you shouldn’t feel obligated to use this featuwe. Howevew we undewstand that this tool wouldn’t be useful if you couldn’t customize it when you awe weady fow it.
 
-## Learn More
+## Leawn Mowe
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can leawn mowe in the [Cweate weact App documentation](https://facebook.github.io/cweate-weact-app/docs/getting-stawted).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To leawn weact, check out the [weact documentation](https://weactjs.owg/).

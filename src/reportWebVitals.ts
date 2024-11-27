@@ -1,15 +1,15 @@
-import { ReportHandler } from 'web-vitals';
+impowt { wepowtHandlew } fwom 'web-vitals';
 
-const reportWebVitals = (onPerfEntry?: ReportHandler) => {
-  if (onPerfEntry && onPerfEntry instanceof Function) {
-    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-      getCLS(onPerfEntry);
-      getFID(onPerfEntry);
-      getFCP(onPerfEntry);
-      getLCP(onPerfEntry);
-      getTTFB(onPerfEntry);
+const wepowtWebVitals = (onPewfEntwy?: wepowtHandlew) => {
+  if (onPewfEntwy && onPewfEntwy instanceof Function) {
+    impowt('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+      getCLS(onPewfEntwy);
+      getFID(onPewfEntwy);
+      getFCP(onPewfEntwy);
+      getLCP(onPewfEntwy);
+      getTTFB(onPewfEntwy);
     });
   }
 };
 
-export default reportWebVitals;
+expowt default wepowtWebVitals;

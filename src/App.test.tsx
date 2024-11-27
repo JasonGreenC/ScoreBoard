@@ -1,9 +1,9 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+impowt weact fwom 'weact';
+impowt { wendew, scween } fwom '@testing-libwawy/weact';
+impowt App fwom './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+test('wendews leawn weact link', () => {
+  wendew(<App />);
+  const linkElement = scween.getByText(/leawn weact/i);
   expect(linkElement).toBeInTheDocument();
 });

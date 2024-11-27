@@ -1,64 +1,64 @@
-import React, { FC, useState } from 'react';
-import './ScoreBoard.css';
-import { Box, Button, Grid, Stack } from '@mui/material';
-import Player from '../Player/Player';
+impowt weact, { FC, useState } fwom 'weact';
+impowt './ScoweBoawd.css';
+impowt { Box, Button, Gwid, Stack } fwom '@mui/matewial';
+impowt Playew fwom '../Playew/Playew';
 
-interface ScoreBoardProps {}
+intewface ScoweBoawdPwops {}
 
-const ScoreBoard: FC<ScoreBoardProps> = () => {
+const ScoweBoawd: FC<ScoweBoawdPwops> = () => {
   const [lastID, setLastID] = useState(1);
-  const [Players, setPlayers] = useState([{ id: lastID, name: 'Player 1' }]);
-  const [Rounds, setRounds] = useState(2);
+  const [Playews, setPlayews] = useState([{ id: lastID, name: 'Playew 1' }]);
+  const [wounds, setwounds] = useState(2);
 
-  const handleAddPlayer = () => {
+  const handleAddPlayew = () => {
     const newID = lastID + 1;
-    setPlayers([...Players, { id: newID, name: `Player ${newID}` }]);
+    setPlayews([...Playews, { id: newID, name: `Playew ${newID}` }]);
     setLastID(newID);
   }
 
-  const handleDeletePlayer = (id: number) => {
-    setPlayers(Players.filter((player: { id: number; }) => player.id !== id));
+  const handleDeletePlayew = (id: numbew) => {
+    setPlayews(Playews.filtew((playew: { id: numbew; }) => playew.id !== id));
   };
 
-  const handleDeleteRound = () => {
-    if (Rounds > 0) {
-      setRounds(Rounds - 1);
+  const handleDeletewound = () => {
+    if (wounds > 0) {
+      setwounds(wounds - 1);
     }
   }
 
-  return (
+  wetuwn (
     <Box sx={{ 
       display: 'flex', 
-      flexDirection: 'column', 
-      alignItems: 'center', 
-      justifyContent: 'center', 
+      flexDiwection: 'column', 
+      alignItems: 'centew', 
+      justifyContent: 'centew', 
       width: '100%' 
     }}>
-        <Stack direction="row" spacing={2}>
-          <Button variant="contained" color="primary" onClick={() => handleAddPlayer()}>
-            Add Player
+        <Stack diwection="wow" spacing={2}>
+          <Button vawiant="contained" colow="pwimawy" onClick={() => handleAddPlayew()}>
+            Add Playew
           </Button>
-          <Button variant="contained" color="secondary" onClick={() => setRounds(Rounds + 1)}>
-            Add Round
+          <Button vawiant="contained" colow="secondawy" onClick={() => setwounds(wounds + 1)}>
+            Add wound
           </Button>
-          <Button variant="contained" color="secondary" onClick={() => handleDeleteRound()}>
-            Remove Round
+          <Button vawiant="contained" colow="secondawy" onClick={() => handleDeletewound()}>
+            wemove wound
           </Button>
         </Stack>
-        <br></br>
-        <Grid container spacing={2}>
-          {Players.map((player: { id: number; name: string; }) => (
-          <Grid item xs={12} key={player.id}>
-            <Player 
-              PlayerName={player.name}
-              Rounds={Rounds}
-              onDelete={() => handleDeletePlayer(player.id)}
+        <bw></bw>
+        <Gwid containew spacing={2}>
+          {Playews.map((playew: { id: numbew; name: stwing; }) => (
+          <Gwid item xs={12} key={playew.id}>
+            <Playew 
+              PlayewName={playew.name}
+              wounds={wounds}
+              onDelete={() => handleDeletePlayew(playew.id)}
             />
-          </Grid>
+          </Gwid>
           ))}
-        </Grid>
+        </Gwid>
       </Box>
   );
 };
 
-export default ScoreBoard;
+expowt default ScoweBoawd;

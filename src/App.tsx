@@ -1,23 +1,23 @@
-import React from 'react';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import './App.css';
-import ScoreBoard from './components/ScoreBoard/ScoreBoard';
+impowt weact fwom 'weact';
+impowt { ThemePwovidew, cweateTheme } fwom '@mui/matewial/styles';
+impowt CssBaseline fwom '@mui/matewial/CssBaseline';
+impowt './App.css';
+impowt ScoweBoawd fwom './components/ScoweBoawd/ScoweBoawd';
 
-const darkTheme = createTheme({
+const dawkTheme = cweateTheme({
   palette: {
-    mode: 'dark',
+    mode: 'dawk',
   },
 });
 
 function App() {
-  return (
-    <ThemeProvider theme={darkTheme}>
+  wetuwn (
+    <ThemePwovidew theme={dawkTheme}>
       <CssBaseline />
-      <ScoreBoard />
-    </ThemeProvider>
+      <ScoweBoawd />
+    </ThemePwovidew>
   );
 }
 
-export default App;
+expowt default App;
 

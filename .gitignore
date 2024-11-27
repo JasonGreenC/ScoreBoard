@@ -1,4 +1,4 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/awticles/ignowing-files/ fow mowe about ignowing files.
 
 # dependencies
 /node_modules
@@ -6,18 +6,18 @@
 .pnp.js
 
 # testing
-/coverage
+/covewage
 
-# production
+# pwoduction
 /build
 
 # misc
-.DS_Store
+.DS_Stowe
 .env.local
 .env.development.local
 .env.test.local
-.env.production.local
+.env.pwoduction.local
 
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+yawn-debug.log*
+yawn-ewwow.log*
